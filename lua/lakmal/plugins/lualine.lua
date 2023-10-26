@@ -7,8 +7,9 @@ return {
         lualine.setup({
             options = {
                 icons_enabled = true,
-                theme = 'auto',
-            }
+                theme = 'catppuccin',
+                disabled_filetypes = {'NvimTree'}
+            },
         })
     end
 }
