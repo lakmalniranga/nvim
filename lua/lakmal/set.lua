@@ -27,8 +27,9 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 -- set colorscheme
-vim.cmd("colorscheme rose-pine")
+vim.cmd("colorscheme catppuccin-mocha")
 
 -- make background transparent
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
